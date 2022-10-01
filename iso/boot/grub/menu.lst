@@ -1,0 +1,5 @@
+    default=0
+    timeout=0
+
+    title Bitty_OS
+    kernel /boot/kernel.elf
