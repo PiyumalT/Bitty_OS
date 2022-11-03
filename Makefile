@@ -25,7 +25,7 @@ os.iso: kernel.elf
                     iso
 
 run: os.iso
-	qemu-system-i386 -boot d -cdrom os.iso -m 32 -d cpu -D vmlog.txt -serial file:os.out
+	qemu-system-i386 -boot d -cdrom os.iso -m 32 -d cpu -D vmlog.txt -serial file:col.out
 
 %.o: %.c
 	$(CC) $(CFLAGS)  $< -o $@
