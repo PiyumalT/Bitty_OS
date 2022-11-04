@@ -1,5 +1,6 @@
 # Bitty_OS
 
+
 First step - Make your own OS (Part 1)
   blog post  - https://piyumalt.medium.com/make-your-own-os-part-1-a2d3b5a066e3
   
